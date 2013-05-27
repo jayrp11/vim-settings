@@ -19,6 +19,13 @@ set noerrorbells
 
 nnoremap ; :
 
+" Switch syntax highlighting on, when the terminal has colors
+if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
+  syntax on
+endif
+
+set hlsearch " highlighing search terms
+
 if $COLORTERM == 'gnome-terminal'
     set term=gnome-256color
     colorscheme railscasts
