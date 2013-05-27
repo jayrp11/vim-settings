@@ -1,4 +1,5 @@
 call pathogen#infect()
+call pathogen#helptags()
 set nocompatible
 
 let mapleader=','
@@ -17,3 +18,10 @@ set visualbell
 set noerrorbells
 
 nnoremap ; :
+
+if $COLORTERM == 'gnome-terminal'
+    set term=gnome-256color
+    colorscheme railscasts
+else
+    colorscheme default
+endif
