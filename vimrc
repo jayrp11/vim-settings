@@ -40,3 +40,19 @@ if $COLORTERM == 'gnome-terminal'
 else
     colorscheme default
 endif
+
+if has("autocmd")
+    " enalble file type specific indention
+	filetype plugin indent on
+endif " has("autocmd")
+
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+nnoremap <leader>a :Ack 
+
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
