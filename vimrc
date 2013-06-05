@@ -56,3 +56,10 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+" double percentage sign in command mode is expanded
+" " to directory of current file - http://vimcasts.org/e/14
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+
+" <leader>F to serach in directory of current file
+map <leader>T :CommandTFlush<cr>\|:CommandT %%<cr>
