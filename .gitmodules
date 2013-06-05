@@ -10,3 +10,15 @@
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
 	url = git://github.com/mileszs/ack.vim
+[submodule "bundle/vim-commentary"]
+	path = bundle/vim-commentary
+	url = git://github.com/tpope/vim-commentary.git
+[submodule "bundle/repeat.vim"]
+	path = bundle/repeat.vim
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "bundle/surround.vim"]
+	path = bundle/surround.vim
+	url = git://github.com/tpope/vim-surround.git
+[submodule "bundle/snipmate.vim"]
+	path = bundle/snipmate.vim
+	url = git://github.com/msanders/snipmate.vim.git

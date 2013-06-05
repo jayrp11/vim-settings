@@ -61,5 +61,6 @@ nnoremap <C-l> <C-w>l
 " " to directory of current file - http://vimcasts.org/e/14
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
 
-" <leader>F to serach in directory of current file
+" leader F to serach in directory of current file
 map <leader>T :CommandTFlush<cr>\|:CommandT %%<cr>
+
