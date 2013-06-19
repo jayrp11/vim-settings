@@ -64,3 +64,14 @@ make
 sudo make install
 ```
 
+4. Install Command-T plugin. Ruby support is required for this plugin to work.
+
+```bash
+cd ~/vim-settings/bundle/command-t/ruby/command-t/
+
+# Make sure to execute below command with vim integrated ruby version. 
+# Check vim integrated ruby version using vim --version | grep ruby
+ruby extconf.rb
+
+make
+```
