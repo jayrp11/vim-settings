@@ -64,3 +64,11 @@ cnoremap %% <C-R>=expand('%:h').'/'<cr>
 " leader F to serach in directory of current file
 map <leader>T :CommandTFlush<cr>\|:CommandT %%<cr>
 
+" rails.vim specific shotcuts
+nnoremap <leader>rm :Rmodel
+nnoremap <leader>rc :Rcontroller
+nnoremap <leader>rv :Rview
+nnoremap <leader>rs :Rspec
+nnoremap <leader>rl :Rlib
+nnoremap <leader>ra :A<CR>
+nnoremap <leader>rr :R<CR>
