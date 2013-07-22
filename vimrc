@@ -6,6 +6,7 @@ let mapleader=','                " mapping \ to ,
 
 set hidden
 
+set noswapfile                   " do not create swp files
 set nowrap                       " do wrap lines
 set tabstop=4                    " tab stop to 4 spaces
 set backspace=indent,eol,start
@@ -72,3 +73,6 @@ nnoremap <leader>rs :Rspec
 nnoremap <leader>rl :Rlib
 nnoremap <leader>ra :A<CR>
 nnoremap <leader>rr :R<CR>
+
+" Run current file in ruby
+nmap <leader>rex :!ruby %<CR>
