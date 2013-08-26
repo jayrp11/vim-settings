@@ -76,3 +76,5 @@ nnoremap <leader>rr :R<CR>
 
 " Run current file in ruby
 nmap <leader>rex :!ruby %<CR>
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
