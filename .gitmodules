@@ -1,6 +1,3 @@
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = git://git.wincent.com/command-t.git
 [submodule "bundle/vim-railscast"]
 	path = bundle/vim-railscast
 	url = git://github.com/vim-scripts/Railscasts-Theme-GUIand256color
