@@ -1,27 +1,27 @@
 [submodule "bundle/vim-railscast"]
 	path = bundle/vim-railscast
-	url = git://github.com/vim-scripts/Railscasts-Theme-GUIand256color
+	url = https://github.com/vim-scripts/Railscasts-Theme-GUIand256color
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
-	url = git://github.com/tpope/vim-rails
+	url = https://github.com/tpope/vim-rails
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
-	url = git://github.com/mileszs/ack.vim
+	url = https://github.com/mileszs/ack.vim
 [submodule "bundle/vim-commentary"]
 	path = bundle/vim-commentary
-	url = git://github.com/tpope/vim-commentary.git
+	url = https://github.com/tpope/vim-commentary.git
 [submodule "bundle/repeat.vim"]
 	path = bundle/repeat.vim
-	url = git://github.com/tpope/vim-repeat.git
+	url = https://github.com/tpope/vim-repeat.git
 [submodule "bundle/surround.vim"]
 	path = bundle/surround.vim
-	url = git://github.com/tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/snipmate.vim"]
 	path = bundle/snipmate.vim
-	url = git://github.com/msanders/snipmate.vim.git
+	url = https://github.com/msanders/snipmate.vim.git
 [submodule "bundle/vim-cucumber"]
 	path = bundle/vim-cucumber
-	url = git://github.com/tpope/vim-cucumber.git
+	url = https://github.com/tpope/vim-cucumber.git
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
